@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="description" content="Udacity build a portfolio site project">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>amanjot Portfolio</title>
+  <link rel="icon" sizes="192x192" href="images/icon.png">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+</head>
+<body>
+<!--header starts-->
+  <header>
+    <div class="row">
+      <div class="logo col-md-6 col-sm-6 col-xs-6"><img src="images/logo_portfolio.png" alt="logo of portfolio site"></div>
+      <div class="header-title col-md-6 col-sm-6 col-xs-6 text-right text-uppercase">
+          <h1>Amanjot Kaur</h1>
+            <h3>Full Stack Web Developer</h3>
+      </div>
+    </div>
+    <hr>
+  </header>
+  <!--header ends-->
+
+  <main>
+    <figure>        <!--main image-->
+      <picture id="banner">
+        <img src="images/background_1400.jpg" sizes="(min-width: 350px) 100vw" srcset="images/background_800.jpg 500w, images/background_1400.jpg 1000w" alt="people interacting globally">
+      </picture>
+      <hr>
+    </figure>
+    <p>We have developed a responsive website that display images, descriptions and links(to be updated) to each of the portfolio projects we will complete throughout the course of Nanodegree program.</p>
+  <hr>
+    <h2>Featured Work</h2>
+    <!--work tile images and detail links-->
+    <section class=" row">
+      <div class="tiles text-center col-sm-6 col-md-3">
+        <img src="images/image1.jpg" alt="web design poster">
+          <h3>Work 1</h3>
+            <a href="#">click here to open link1</a>
+      </div>
+      <div class="tiles text-center col-sm-6 col-md-3">
+        <img src="images/image2.jpg" alt="colorful pencils">
+          <h3>Work 2</h3>
+            <a href="#">click here to open link2</a>
+      </div>
+      <div class="tiles text-center col-sm-6 col-md-3">
+        <img src="images/image3.jpg" alt="desktop">
+          <h3>Work 3</h3>
+            <a href="#">click here to open link3</a>
+      </div>
+      <div class="tiles text-center col-sm-6 col-md-3">
+        <img src="images/image4.jpg" alt="web graphics on bulb">
+          <h3>Work 4</h3>
+            <a href="#">click here to open link4</a>
+      </div>
+    </section>
+    <hr>
+  </main>
+  <!--footer starts-->
+  <footer>
+    <div id="footer-title">Social Links</div>
+      <div class="icons row">
+        <div class="col-xs-4 col-sm-4 col-md-4">
+          <a href="#"><i class="fa fa-facebook"></i></a>    <!--font awesome icon-->
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-4">
+          <a href="#"><i class="fa fa-linkedin"></i></a>    <!--font awesome icon-->
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-4">
+          <a href="#"><i class="fa fa-twitter"></i></a>   <!--font awesome icon-->
+        </div>
+      </div>
+  </footer>
+  <!--footer ends-->
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

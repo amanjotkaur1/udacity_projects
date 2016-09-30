@@ -1,0 +1,60 @@
+/*
+build a portfolio site
+*/
+/*
+    Created on : Sep 27, 2016, 10:31:30 PM
+    Author     : amanjot kaur
+*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    margin: 0 .5em;
+    font-size: 14px;
+}
+
+.logo {
+    max-width: 192px;
+    max-height: 107px;
+    margin-top: 1em;
+}
+
+img {               /*main image*/
+    max-width: 100%;
+    margin-bottom: 2em;
+}
+
+p {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 1.2em;
+}
+
+h2 {                /*featured work*/
+    color: #999;
+    margin-top: 1.5em;
+    margin-left: 1em;
+}
+
+.tiles {                /*work tiles*/
+    margin-top: 2em;
+    font-size: 1.5em;
+}
+
+a {                 /*work tile links*/
+    font-size: .6em;
+}
+
+#footer-title {             /*social links*/
+    text-align: left;
+    font-size: 2em;
+    color: gray;
+    margin-left: 1em;
+}
+
+.icons {
+    font-size: 5em;
+    margin: .5em 1em;
+}
